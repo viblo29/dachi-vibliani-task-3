@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:#f0f1f2">
+    <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="fullname" placeholder="Enter your full name" required> <br> <br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required> <br> <br>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required> <br> <br> 
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject of your message" required> <br> <br>
+
+        <label for="message">Message</label>
+        <textarea type="text" id="message"  placeholder="Write your message" required></textarea> <br> <br>
+
+
+
+        <p><b>Preffered Contact Method:</b></p> 
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">EMAIL</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Phone Number</label><br>
+
+        <br>
+
+        <label for="vote">Subscribe to updates</label>
+        <input type="checkbox" name="vote" id="vote"> <br> <br>
+
+        <label for="rating">Rating (1 to 10)</label>
+        <input type="range" id="rating" name="rating" min="1" max="10" oninput="this.nextElementSibling.value = this.value"> 
+        <output>5</output> <br> <br>
+
+        <label for="favcolor">Favorite Color</label>
+        <input type="color" id="favcolor" name="favcolor" value="#FF0000"> <br> <br> 
+
+        <label for="visitdate">Date of Visit</label>
+        <input type="date" id="visitdate" name="visitdate"> <br> <br>
+
+        <input type="submit" name="" id=""> <br> <br>
+
+        <a href="file:///Users/mac/Documents/secondpg.html" target="_blank">Go to Page 2</a>
+
+    </form>
+
+</body>
+</html>
