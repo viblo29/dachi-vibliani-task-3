@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:#644a8e;">
+    <form>
+        <label style="padding: 10px; background-color: #396b30; color: #fcf7f7;" for="name">Full Name</label>
+        <input style="background-color:#a3c665; border-radius:10px; padding: 10px; width: 150px;" type="text" name="name" id="name" placeholder="Enter your full name" required> <br> <br>
+
+        <label style="padding: 10px; background-color: #396b30; color: #fcf7f7;" for="email">Email</label>
+        <input style="background-color: #a3c665; border-radius:10px; padding: 10px; width: 150px;" type="email" name="email" id="email" placeholder="Enter your Email" required> <br> <br>
+
+        <label style="padding: 10px; background-color: #396b30; color: #fcf7f7;" for="tel">Phone Number</label>
+        <input style="background-color: #a3c665; border-radius:10px; padding: 10px; width: 150px;" style="" type="tel" name="tel" id="tel" placeholder="Enter your mobile number" required> <br> <br> 
+    
+        <label style="padding: 10px; background-color: #396b30; color: #fcf7f7;" for="subject">Subject</label>
+        <input style="background-color: #a3c665; border-radius:10px; padding: 10px; width: 150px;" type="text" name="subject" id="subject" placeholder="Subject of your message" required> <br> <br>
+    
+        <label style="padding: 10px; background-color: #396b30; color: #fcf7f7;" for="message">Message</label>
+        <textarea style="background-color: #a3c665; border-radius:10px; padding: 10px;" name="text" id="message" placeholder="Write your message" required></textarea> <br> <br> 
+    
+        <p><b>Preffered Contact Method:</b></p>
+        <input type="radio" name="option" id="emailBtn" value="emailBtn" required>
+        <label style="padding: 5px; border-radius:10px; background-color: #396b30; color: #fcf7f7;" for="emailBtn">EMAIL</label>
+
+        <input type="radio" name="option" id="numbBtn" value="numbBtn" required>
+        <label style="padding: 5px; border-radius: 10px; background-color: #396b30; color: #fcf7f7;" for="numbBtn">Mobile Number</label>
+
+        <br> <br>
+
+        <label style="padding: 10px; background-color: #396b30; color: #fcf7f7;" for="Subscribe">Subscribe To Updates</label>
+        <input type="checkbox" name="Subscribe" id="Subscribe" required> <br> <br>
+
+        <label style="padding: 10px; background-color: #396b30; color: #fcf7f7;" for="rating">Rating (1 to 10)</label>
+        <input type="range" name="rating" id="rating" min="1" max="10" oninput="this.nextElementSibling.value = this.value">
+        <output>5</output> <br> <br>
+
+        <label style="padding: 10px; background-color: #396b30; color: #fcf7f7;" for="clr">Choose your favorite color:</label>
+        <input type="color" name="clr" id="clr"> <br> <br>
+
+        <label style="padding: 10px; background-color: #396b30; color: #fcf7f7;" for="visitdate">Date of Visit:</label>
+        <input type="date" name="visitdate" id="visitdate"> <br> <br>
+
+        <input style="padding: 15px; background-color: black; color: white;" type="submit" name="" id=""> <br><br>
+
+        <a style="background-color: #396b30; color: white;" href="./page2.html" target="_blank">Go To Second Page</a>
+
+
+    </form>
+</body>
+</html>
